@@ -1,26 +1,31 @@
-div {
-    background-color:hsl(12, 100%, 75%) ;
-}
-
-
-
-
 .title {
     color: white;
+    background-color: hsl(0, 100%, 85%);
     font-family: "Abel", "Courier New", monospace  ;
-    font-size: 200px;
+    font-size: 150px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 img {
+    display: block;
     height: auto;
-    width: 800px
+    margin-left: auto;
+    margin-right:auto;
+    width: 80%;
+    
 }
 
 .list .link {
-    color: rgb(255, 255, 255);
+    color: #663300;
     font-family: "Abel", "Courier New", monospace;
-    font-size: 100px;
-    text-align: justify;
+    font-size: 40px;
+    text-align: center;
+}
+
+.center {
+    background-color: hsl(0, 100%, 85%);
+    margin: auto;
+    width: 400px;
+    padding: 15px;
 }
